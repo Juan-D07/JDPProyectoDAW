@@ -1,4 +1,0 @@
-<!ELEMENT lugares (#PCDATA | lugar)*>
-<!ATTLIST lugares xmlns:xsi CDATA #IMPLIED
-                    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
-<!ELEMENT lugar (#PCDATA)>
