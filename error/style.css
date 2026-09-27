@@ -1,19 +1,37 @@
+
+
+@font-face {
+    font-family: Oswald;
+    src:url(font/Oswald-VariableFont_wght.ttf);
+}
+
+*{
+
+  box-sizing: border-box;
+  font-family: Oswald;
+  font-weight: 400;  
+}
 body{
-  background-color:rgb(0,0,0);
-  font-family: Roboto, Arial;
-  color: white;
+  background-color:white;
+  font-family: Oswald;
+  color: black;
   align-items: center;
 }
 
-.main{
-  background-color: rgb(18, 18, 18);
+main{
+  background-color: rgb(252, 248, 248);
   display:flex;
   flex-direction: column;
   align-items: center;
   margin:200px auto;
   width:500px;
-  border-radius: 10px;
   align-self: center;
+  border: 5px solid orange;
+}
+
+main:hover{
+transform: translateY(-6px);
+box-shadow: 0 6px  orange;
 }
 
 .error{
@@ -29,23 +47,10 @@ body{
   padding-top: 184px;
 }
 
-.error-album{
-  margin-left:20px;
+span{
+  color: orange;
 }
 
-.album-img{
-  height:220px;
-  border-radius: 20px;
-}
-
-.album-nombre{
-  font-size: 40px;
-  font-weight: 700;
-}
-.album-author{
-  font-size: 14px;
-  color: rgb(124, 124, 124);
-}
 
 .desc{
   margin-bottom: 50px;
@@ -55,14 +60,11 @@ body{
 .volver{
   margin-bottom: 50px;
   font-size: 20px;
-  color: white;
   text-decoration: solid;
-
+  color: black;
 }
 
 .volver:hover{
-  text-decoration: underline;
+  color: orange;
   cursor:pointer
-
-
 }
