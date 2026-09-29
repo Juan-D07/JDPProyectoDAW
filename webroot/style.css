@@ -186,3 +186,10 @@ footer{
     border-bottom: 2px solid orange;
   }
   }
+
+  
+@media (min-width: 2600px){
+  .curso-titulo{
+    font-size: 60px;
+  }
+}
